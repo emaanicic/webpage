@@ -1,30 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Varela+Round');
 
+body{
+  background-image: url(cvmid.jpg);
+}
+
 h1{
   font-family: 'Dancing Script', cursive;
+  font-size: 70px;
 }
 h3,p{
   font-family: 'Varela Round', sans-serif;
 }
+h3{
+  margin-top: 20px;
+  color: #ffffb3;
+}
 p{
   margin-bottom: 20px;
   margin-top: 20px;
+  color: #80dfff;
 }
 li{
-  color: #66004d;
+  color: #ffb366;
 }
-.darkbg{
-  background-color: #66004d;
+
+header{
+  margin-bottom: 20px;
 }
-.darktext{
-  color: #66004d;
+
+.blackbg{
+  background-color: #000000;
 }
-.lightbg{
-  background-color: #ffffff;
-}
-.lighttext{
-  color: #ffffff;
-}
+
 .navbar-default {
   flex-direction: column;
   background-image: none;
@@ -36,7 +43,7 @@ li{
   text-align: center;
   font-weight: bold;
   color: #000000;
-  background-color: #ff99ff;
+  background-color: #ffffb3;
   font-family: 'Varela Round', sans-serif;
 
 }
@@ -45,14 +52,14 @@ li{
 }
 a:hover {
   background-color: #000000;
-  color: #ff99ff;
-  border-color:  #ff99ff;
+  color: #ffffb3;
+  border-color:  #ffffb3;
 }
 
 a:active {
   background-color: #000000;
-  color: #ff99ff;
-  border-color:  #ff99ff;
+  color: #ffffb3;
+  border-color:  #ffffb3;
   border-style: groove;
 }
 /*
@@ -64,65 +71,69 @@ a:visited{
 }
 */
 .jumbotron{
-  background-color:  #66004d;
+  background-color: #000099;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
-  color: #ffffff;
+  color: #80dfff;
   padding-left: ;
   padding-right: ;
   padding-top: 2%;
   padding-bottom: 2%;
+  margin-bottom: 0px;
 }
 
 .topcv{
-  background-image: url(si-citations.jpg);
+
   width: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
+.middle{
+  width: 100%;
+  margin-top: 0px;
+}
+
 .cv{
   width: 60%;
   align-self: center;
-  align-content: left;
   margin-left: 20%;
   margin-right: 20%;
 
 }
 
+
+#first{
+  margin-top: 0px;
+}
+
 #t2000 {
-  color: #66004d;
-  font-size: 500;
-  background-color: #ffffff;
+  color: #ffffb3;
+  font-size: 30px;
 }
 
 #t2004 {
-  color: #66004d;
-  font-size: 500;
-  background-color: #ffffff;
+  color: #ffffb3;
+  font-size: 30px;
 }
 
 #t2006 {
-  color: #66004d;
-  font-size: 500;
-  background-color: #ffffff;
+  color: #ffffb3;
+  font-size: 30px;
 }
 
 #t2014 {
-  color: #66004d;
-  font-size: 500;
-  background-color: #ffffff;
+  color: #ffffb3;
+  font-size: 30px;
 }
 
 #t2017 {
-  color: #66004d;
-  font-size: 500;
-  background-color: #ffffff;
+  color: #ffffb3;
+  font-size: 30px;
 }
 
 #t2018 {
-  color: #66004d;
-  font-size: 500;
-  background-color: #ffffff;
+  color: #ffffb3;
+  font-size: 30px;
 }
