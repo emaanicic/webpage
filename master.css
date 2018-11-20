@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Varela+Round');
+
+h1{
+  font-family: 'Dancing Script', cursive;
+}
+h3,p{
+  font-family: 'Varela Round', sans-serif;
+}
+p{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+li{
+  color: #66004d;
+}
+.darkbg{
+  background-color: #66004d;
+}
+.darktext{
+  color: #66004d;
+}
+.lightbg{
+  background-color: #ffffff;
+}
+.lighttext{
+  color: #ffffff;
+}
+.navbar-default {
+  flex-direction: column;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+.link{
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ff99ff;
+  font-family: 'Varela Round', sans-serif;
+
+}
+.c{
+  font-style: italic;
+}
+a:hover {
+  background-color: #000000;
+  color: #ff99ff;
+  border-color:  #ff99ff;
+}
+
+a:active {
+  background-color: #000000;
+  color: #ff99ff;
+  border-color:  #ff99ff;
+  border-style: groove;
+}
+/*
+a:visited{
+  background-color: #000000;
+  color: #ff99ff;
+  border-color:  #ff99ff;
+  border-style: double;
+}
+*/
+.jumbotron{
+  background-color:  #66004d;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #ffffff;
+  padding-left: ;
+  padding-right: ;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.topcv{
+  background-image: url(si-citations.jpg);
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cv{
+  width: 60%;
+  align-self: center;
+  align-content: left;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+#t2000 {
+  color: #66004d;
+  font-size: 500;
+  background-color: #ffffff;
+}
+
+#t2004 {
+  color: #66004d;
+  font-size: 500;
+  background-color: #ffffff;
+}
+
+#t2006 {
+  color: #66004d;
+  font-size: 500;
+  background-color: #ffffff;
+}
+
+#t2014 {
+  color: #66004d;
+  font-size: 500;
+  background-color: #ffffff;
+}
+
+#t2017 {
+  color: #66004d;
+  font-size: 500;
+  background-color: #ffffff;
+}
+
+#t2018 {
+  color: #66004d;
+  font-size: 500;
+  background-color: #ffffff;
+}
