@@ -78,7 +78,6 @@ a:visited{
   color: #80dfff;
   padding-left: ;
   padding-right: ;
-  padding-top: 2%;
   padding-bottom: 2%;
   margin-bottom: 0px;
 }
@@ -101,6 +100,13 @@ a:visited{
   margin-left: 20%;
   margin-right: 20%;
 
+}
+
+#sticky{
+  position: sticky;
+  top: 0;
+  width: 10%;
+  margin-left: 85%;
 }
 
 
