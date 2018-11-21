@@ -3,7 +3,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -15,7 +14,7 @@
     <!-- Modifyed from Bootstrap -->
 <div class="topcv">
     <div class="jumbotron">
-  <h1 class="display-4">Hello and welcome</h1>
+  <h1 id="top" >Hello and welcome</h1>
     <h3>To my CV page!</h3>
 
   <hr>
@@ -53,14 +52,74 @@
 </ul>
 </div>
 </nav>
-  </p>
+
 </div>
 </div>
 </header>
 
+<div class="middle">
 <div class="cv">
-  <p>Here are all of my acccomplishments so far. What they lack in quantity, they make up for in quality and I am proud of every single one of these.
-     I will continue to add more to the list as time goes by as I've just begun my professional life. </p>
+<p  class="blackbg" id="first">Here are all of my acccomplishments so far. What they lack in quantity, they make up for in quality and I am proud of every single one of these.
+   I will continue to add more to the list as time goes by as I've just begun my professional life. </p>
+
+   <!-- Modifyed from Bootstrap -->
+   <ul class="nav justify-content-center">
+     <li class="nav-item">
+       <a class="nav-link link" href="#qual">My Qualifications</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link link" href="#mycv">My CV</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link link" href="#life">My life throught the years</a>
+     </li>
+
+   </ul>
+</div>
+
+
+   <a class="nav-link link" id="sticky" href="#top">Back to the top of the page</a>
+
+<div class="cv">
+
+
+<h3 id="qual">My Qualifications</h3>
+
+<p>I have graduated from III. gimnazija Split, a science-oriented higschool in Split, Croatia.
+  I have passed the Matura (Final Exam) with excellent results.
+
+  <a href="Ema Anicic - Matura (CRO+ENG).pdf" download>Download my Matura Diploma (5 is the highest grade)</a>
+</p>
+
+<p>Croatian is my mother tongue, but I've been learning English since I was four and have a Cambridge C2 diploma to prove my proficiency.
+
+  <a href="Ema Anicic C2.jpg" download>Download my C2 Diploma</a>
+</p>
+</div>
+
+<div class="cv">
+
+
+<h3 id="mycv">My CV</h3>
+
+<p class="blackbg">Computer Science became my passion when we started programming in C in second grade of high school. The feeling of success and fulfilment when my first program worked was unforgettable.
+ By the time I was in third grade we started more serious programming in C++, and in 4th grade C#.
+ I was placed third overall in the exam organised by the Centre of Excellence for Computer Science (the government's program for gifted students) in 2017 and chose to attend the Java course which lasted 4 hours a week throughout 16 weeks.
+</p>
+<p class="blackbg">
+  I enjoy doing presentations and volunteer to make them whenever the opportunity arises. Also, I love public speaking. I believe sharing my ideas and thoughts with others is a good way to improve myself and my work,
+  learn more and gain valuable feedback on the matter. Different views and processes of thinking is what I cherish when it comes to computing - there are as many ways to reach a solution as there are programmers trying to solve it.
+  <br><br>I have been a member of the World Organisation of the Scout Movement for the last 11 years. Being a scout is a great passion of mine; it has taught me the importance of acceptance of other people’s ideas, opinions and attitudes and,
+  most of all, how to function as a part of a team. These experiences have helped me gain an invaluable sense of responsibility, leadership and communication skills.
+  <br><br>For these reasons, I love working in teams and contribute to team projects as much as I can.
+</p>
+
+</p>
+
+</div>
+
+<div class="cv">
+<h3 id="life">My life throughout the years</h3>
   <!-- Modifyed from Bootstrap -->
   <ul class="nav justify-content-center">
     <li class="nav-item">
@@ -85,7 +144,7 @@
   </ul>
 
 <div class="year">
-  <a class="link" id="t2000">2000</a>
+  <a id="t2000">2000</a>
   <ul>
     <li>11/03/2000</li>
   </ul>
@@ -94,7 +153,7 @@
 </div>
 
 <div class="year">
-  <a class="link" id="t2004">2004</a>
+  <a id="t2004">2004</a>
   <ul>
     <li>September 2004</li>
   </ul>
@@ -103,18 +162,18 @@
 </div>
 
 <div class="year">
-  <a class="link" id="t2006">2006</a>
+  <a id="t2006">2006</a>
   <ul>
-    <li>September 2006</li>
+    <li class="blackbg">September 2006</li>
   </ul>
-  <p>Started attending primary school, which lasts 8 years in Croatia. I've been interested in science subjects since a young age </p>
+  <p>Started attending primary school, which lasts 8 years in Croatia. In the last few years of primary, it became obvious to me that I would go on to study a science subject.</p>
 
 </div>
 
 <div class="year">
-<a class="link" id="t2014">2014</a>
+<a  id="t2014">2014</a>
 <ul>
-  <li>September 2014</li>
+  <li class="blackbg">September 2014</li>
 </ul>
 <p>Finished primary school with the highest score possible so I enrolled into one of two best (and unfortunatelly most demanding) highschools in the country,
    III. gimnazija Split, also known as the Mathematics and Informatics Learning Centre.</p>
@@ -122,7 +181,7 @@
 </div>
 
 <div class="year">
-<a class="link" id="t2017">2014</a>
+<a id="t2017">2017</a>
 <ul>
   <li>June 2017</li>
 </ul>
@@ -131,7 +190,7 @@
 </div>
 
 <div class="year">
-<a class="link" id="t2018">2018</a>
+<a id="t2018">2018</a>
 <ul>
   <li>September 2018</li>
 </ul>
@@ -140,9 +199,11 @@
 </div>
 
 </div>
+</div>
 
 
 
+<!-- sticky footer to go back to the top of the page -->
 
 
 
